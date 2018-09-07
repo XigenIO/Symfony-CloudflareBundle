@@ -1,0 +1,5 @@
+services:
+    Xigen\Bundle\CloudflareBundle\Service\Cloudflare:
+        autowire: true
+        public: true
+        arguments: ['%cloudflare_email%', '%cloudflare_apikey%']

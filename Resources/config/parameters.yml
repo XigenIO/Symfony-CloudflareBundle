@@ -1,0 +1,3 @@
+parameters:
+    cloudflare_email: '%env(cloudflare_email)%'
+    cloudflare_apikey: '%env(cloudflare_apikey)%'
