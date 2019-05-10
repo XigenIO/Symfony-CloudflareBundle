@@ -1,16 +1,15 @@
 {
-    "name" : "xigen/cloudflare-bundle",
+    "name" : "xigen.io/cloudflare-bundle",
     "description" : "Symfony bridge for the Cloudflare SDK",
     "type" : "symfony-bundle",
     "authors" : [{
         "name" : "Chris Hilsdon",
-        "email" : "chrish@xigen.co.uk",
-        "homepage": "https://xigen.co.uk"
+        "email" : "chrish@xigen.co.uk"
     }],
     "require" : {
-        "php": "^7",
+        "php": "^7.3",
         "cloudflare/sdk": "^1",
-        "symfony/framework-bundle": "^3.4|^4.0"
+        "symfony/framework-bundle": "^4.2"
     },
     "autoload" : {
         "psr-4" : {
