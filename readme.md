@@ -3,5 +3,5 @@
 ## Installation
 You can install this bundle via composer:
 ```bash
-composer require xigen/cloudflare-bundle
+composer require xigen.io/cloudflare-bundle
 ```
